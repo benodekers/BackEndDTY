@@ -1,0 +1,60 @@
+.Pendu {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+  user-select: none;
+}
+.Pendu > .images {
+  display: flex;
+  flex-wrap: wrap;
+  width: 25%;
+  margin: auto;
+  max-width:100%;
+  max-height:100%;
+  user-select: none;
+  position: absolute;
+  top: 1%; left: 8%;
+}
+.Pendu  > .KeyBoard{
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  margin: auto;
+  user-select: none;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+.Pendu > .wordToGuess {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  margin: auto;
+  user-select: none;
+  position: absolute;
+  left:30%;
+  top: 20%;
+
+}
+
+.Pendu > .ResetButton {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  margin: auto;
+  user-select: none;
+  position: absolute;
+  left:30%;
+  top: 45%;
+
+}
+
+.Pendu > .ResetButton button {
+  display: block;
+  width: 250px;
+  margin-bottom: 0.2em;
+  font-family: Menlo, Monaco, Consolas, Inconsolata, 'Courier New', monospace;
+  position: absolute;
+  top: 100%;
+}

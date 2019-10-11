@@ -1,0 +1,12 @@
+.Pendu > .guesses {
+    width: 100;
+    margin: auto;
+    user-select: none;
+    font-size: 1em;
+    margin: 0.2em;
+    text-align: center;
+    font-family: Menlo, Monaco, Consolas, Inconsolata, 'Courier New', monospace;
+    position: absolute;
+    top : 8%;
+    left: 5%;
+  }

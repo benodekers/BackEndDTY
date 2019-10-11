@@ -1,0 +1,18 @@
+.Pendu > .KeyBoard > .touche {
+    font-size: 2em;
+    flex: 1 1 calc(100% / 14 - 0.4em);
+    outline: 0.08em solid silver;
+    margin: 0.2em;
+    display: flex;
+    cursor: default;
+  }
+  
+.Pendu > .KeyBoard > .touche.hidden {
+    opacity: 0.3;
+    color: red;
+}
+
+.Pendu > .KeyBoard > .touche.visible {
+    cursor: pointer;
+}
+  
