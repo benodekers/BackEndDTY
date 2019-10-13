@@ -1,8 +1,0 @@
-.Pendu > .wordToGuess > .lettre {
-    font-size: 2em;
-    width: 50%;
-    flex: 1 1 calc(50% / 14 - 0.4em);
-    margin: 0.2em;
-    display: flex;
-    cursor: default;
-  }
